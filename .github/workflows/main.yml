@@ -35,7 +35,9 @@ jobs:
         # run: curl https://partner.exploregeorgia.org/api/export/camera-ready?output=json&client=cameraready&key=XV3DSxsk -o cameraready.json
         # Works
         # run: curl https://model.earth/io/build/api/sectorcrosswalk.csv -o sectorcrosswalk.csv
-        run: curl https://data.alltheplaces.xyz/runs/2021-12-11-13-32-30/output.tar.gz -o alltheplaces.tar.gz
+        run: |
+          curl https://data.alltheplaces.xyz/runs/2021-12-11-13-32-30/output.tar.gz -o alltheplaces.tar.gz
+          tar -xvzf alltheplaces.tar.gz
 
       # Runs a set of commands using the runners shell
       #- name: Run a multi-line script
