@@ -1,3 +1,3 @@
 # alltheplaces_curl
 
-Uses a Github Action to fetch the All the Place tar.gz file and uncompress it as the output folder.
+Uses a Github Action to fetch and uncompress the All the Place tar.gz file to the output folder.
