@@ -1,3 +1,9 @@
+"""
+Generates CSV files from JSON files.
+
+@author: Chen (Carolyn)
+"""
+
 import os
 from os.path import isfile, join
 import json
