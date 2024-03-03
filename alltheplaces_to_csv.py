@@ -10,7 +10,6 @@ def main():
     for file in files:
         full_file = join(alltheplaces_dir, file)
         if os.stat(full_file).st_size > 0:
-            print(full_file)  # Helpful for identifying the problematic file
             try:
                 with open(full_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
