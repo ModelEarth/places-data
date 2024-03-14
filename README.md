@@ -13,10 +13,6 @@ Output resides in "location" within this [places-data](https://github.com/ModelE
 
 We are currently excluding "location" within .gitignore until we've cleaned up 2-char country matches.
 
-The US folder was manually copied from location/postacodes/US to: /places/2024/US
-It's 78 MB.
-
-
 class CountryAbbreviationConverter:
     def __init__(self):
         # Dictionary mapping country names to their two-character abbreviations
